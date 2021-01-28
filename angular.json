@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-lottie-example"
+    }
+  },
+  "defaultProject": "ngx-lottie-example",
+  "cli": {
+    "analytics": false
+  }
 }
