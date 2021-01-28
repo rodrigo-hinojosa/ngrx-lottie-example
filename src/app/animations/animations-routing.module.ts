@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AnimationOneComponent } from './animation-one/animation-one.component';
+import { AnimationThreeComponent } from './animation-three/animation-three.component';
 import { AnimationTwoComponent } from './animation-two/animation-two.component';
 import { AnimationsContainerComponent } from './animations-container/animations-container.component';
 
@@ -21,6 +22,10 @@ const routes: Routes = [
             {
                 path: '2',
                 component: AnimationTwoComponent
+            },
+            {
+                path: '3',
+                component: AnimationThreeComponent
             }
         ]
     }

@@ -4,11 +4,11 @@ import { AnimationItem } from 'lottie-web';
 import { AnimationOptions } from 'ngx-lottie';
 
 @Component({
-    selector: 'app-animation-one',
-    templateUrl: './animation-one.component.html',
-    styleUrls: ['./animation-one.component.scss']
+  selector: 'app-animation-three',
+  templateUrl: './animation-three.component.html',
+  styleUrls: ['./animation-three.component.scss']
 })
-export class AnimationOneComponent implements OnInit {
+export class AnimationThreeComponent implements OnInit {
 
     constructor() { }
 
@@ -16,7 +16,7 @@ export class AnimationOneComponent implements OnInit {
     }
 
     options: AnimationOptions = {
-        path: '/assets/animation1.json',
+        path: '/assets/animation3.json',
     };
 
     animationCreated(animationItem: AnimationItem): void {
